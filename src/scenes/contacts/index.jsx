@@ -6,9 +6,7 @@ import Header from "../../components/Header";
 import { useTheme } from "@mui/material";
 
 const Contacts = () => {
-  const theme = useTheme();
   const colors = tokens(theme.palette.mode);
-
   const columns = [
     { field: "id", headerName: "ID", flex: 0.5 },
     { field: "registrarId", headerName: "Registrar ID" },
